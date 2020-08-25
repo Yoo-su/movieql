@@ -1,0 +1,8 @@
+type Yoosu{
+   name:String!
+   age:Int!
+}
+
+type Query{
+    person:Yoosu!
+}
